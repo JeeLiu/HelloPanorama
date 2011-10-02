@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* HelloPanoramaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* HelloPanoramaAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* HelloPanoramaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* HelloPanoramaViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* HelloPanoramaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* HelloPanoramaViewController.m */; };
+		744D9E491313C4C5005EE9C8 /* glues_error.c in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E041313C4C5005EE9C8 /* glues_error.c */; };
+		744D9E4A1313C4C5005EE9C8 /* glues_mipmap.c in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E061313C4C5005EE9C8 /* glues_mipmap.c */; };
+		744D9E4B1313C4C5005EE9C8 /* glues_project.c in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E081313C4C5005EE9C8 /* glues_project.c */; };
+		744D9E4C1313C4C5005EE9C8 /* glues_quad.c in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E0A1313C4C5005EE9C8 /* glues_quad.c */; };
+		744D9E4D1313C4C5005EE9C8 /* glues_registry.c in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E0C1313C4C5005EE9C8 /* glues_registry.c */; };
+		744D9E4E1313C4C5005EE9C8 /* alg-outline in Resources */ = {isa = PBXBuildFile; fileRef = 744D9E0F1313C4C5005EE9C8 /* alg-outline */; };
+		744D9E4F1313C4C5005EE9C8 /* dict.c in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E111313C4C5005EE9C8 /* dict.c */; };
+		744D9E501313C4C5005EE9C8 /* geom.c in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E131313C4C5005EE9C8 /* geom.c */; };
+		744D9E511313C4C5005EE9C8 /* memalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E151313C4C5005EE9C8 /* memalloc.c */; };
+		744D9E521313C4C5005EE9C8 /* mesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E171313C4C5005EE9C8 /* mesh.c */; };
+		744D9E531313C4C5005EE9C8 /* normal.c in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E191313C4C5005EE9C8 /* normal.c */; };
+		744D9E551313C4C5005EE9C8 /* priorityq.c in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E1E1313C4C5005EE9C8 /* priorityq.c */; };
+		744D9E561313C4C5005EE9C8 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 744D9E201313C4C5005EE9C8 /* README */; };
+		744D9E571313C4C5005EE9C8 /* render.c in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E211313C4C5005EE9C8 /* render.c */; };
+		744D9E581313C4C5005EE9C8 /* sweep.c in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E231313C4C5005EE9C8 /* sweep.c */; };
+		744D9E5A1313C4C5005EE9C8 /* tessmono.c in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E271313C4C5005EE9C8 /* tessmono.c */; };
+		744D9E5B1313C4C5005EE9C8 /* PLCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E2B1313C4C5005EE9C8 /* PLCamera.m */; };
+		744D9E5C1313C4C5005EE9C8 /* PLCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E2E1313C4C5005EE9C8 /* PLCube.m */; };
+		744D9E5D1313C4C5005EE9C8 /* PLCylinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E301313C4C5005EE9C8 /* PLCylinder.m */; };
+		744D9E5E1313C4C5005EE9C8 /* PLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E331313C4C5005EE9C8 /* PLImage.m */; };
+		744D9E5F1313C4C5005EE9C8 /* PLMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E351313C4C5005EE9C8 /* PLMath.m */; };
+		744D9E601313C4C5005EE9C8 /* PLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E371313C4C5005EE9C8 /* PLObject.m */; };
+		744D9E611313C4C5005EE9C8 /* PLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E391313C4C5005EE9C8 /* PLRenderer.m */; };
+		744D9E621313C4C5005EE9C8 /* PLScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E3B1313C4C5005EE9C8 /* PLScene.m */; };
+		744D9E631313C4C5005EE9C8 /* PLSceneElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E3D1313C4C5005EE9C8 /* PLSceneElement.m */; };
+		744D9E641313C4C5005EE9C8 /* PLSphere.m in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E3F1313C4C5005EE9C8 /* PLSphere.m */; };
+		744D9E651313C4C5005EE9C8 /* PLTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E421313C4C5005EE9C8 /* PLTexture.m */; };
+		744D9E661313C4C5005EE9C8 /* PLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E441313C4C5005EE9C8 /* PLUtils.m */; };
+		744D9E671313C4C5005EE9C8 /* PLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E461313C4C5005EE9C8 /* PLView.m */; };
+		744D9E681313C4C5005EE9C8 /* PLViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 744D9E481313C4C5005EE9C8 /* PLViewBase.m */; };
+		744D9ED71313CE1A005EE9C8 /* BuildLog_2011-02-22_18-55-01.txt in Resources */ = {isa = PBXBuildFile; fileRef = 744D9ED61313CE1A005EE9C8 /* BuildLog_2011-02-22_18-55-01.txt */; };
+		749C369E13208D0700372D7F /* tess.c in Sources */ = {isa = PBXBuildFile; fileRef = 749C369C13208D0700372D7F /* tess.c */; };
+		C3417239112E2AD900EFCB8A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3417238112E2AD900EFCB8A /* QuartzCore.framework */; };
+		C3417276112E2DC400EFCB8A /* pano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3417275112E2DC400EFCB8A /* pano.jpg */; };
+		C34173F9112E347A00EFCB8A /* AUTHOR in Resources */ = {isa = PBXBuildFile; fileRef = C34173F5112E347A00EFCB8A /* AUTHOR */; };
+		C34173FA112E347A00EFCB8A /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = C34173F6112E347A00EFCB8A /* COPYING */; };
+		C34173FB112E347A00EFCB8A /* README in Resources */ = {isa = PBXBuildFile; fileRef = C34173F7112E347A00EFCB8A /* README */; };
+		C3A98DCA1130ED9900A3CAD6 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A98DC91130ED9900A3CAD6 /* icon.png */; };
+		C3F1DAB5112E2246009C9375 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F1DAB4112E2246009C9375 /* OpenGLES.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* HelloPanoramaAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloPanoramaAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* HelloPanoramaAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloPanoramaAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* HelloPanorama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloPanorama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* HelloPanoramaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelloPanoramaViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* HelloPanoramaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloPanoramaViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* HelloPanoramaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloPanoramaViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* HelloPanorama_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloPanorama_Prefix.pch; sourceTree = "<group>"; };
+		744D9E021313C4C5005EE9C8 /* glu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glu.h; sourceTree = "<group>"; };
+		744D9E031313C4C5005EE9C8 /* glues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glues.h; sourceTree = "<group>"; };
+		744D9E041313C4C5005EE9C8 /* glues_error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glues_error.c; sourceTree = "<group>"; };
+		744D9E051313C4C5005EE9C8 /* glues_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glues_error.h; sourceTree = "<group>"; };
+		744D9E061313C4C5005EE9C8 /* glues_mipmap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glues_mipmap.c; sourceTree = "<group>"; };
+		744D9E071313C4C5005EE9C8 /* glues_mipmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glues_mipmap.h; sourceTree = "<group>"; };
+		744D9E081313C4C5005EE9C8 /* glues_project.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glues_project.c; sourceTree = "<group>"; };
+		744D9E091313C4C5005EE9C8 /* glues_project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glues_project.h; sourceTree = "<group>"; };
+		744D9E0A1313C4C5005EE9C8 /* glues_quad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glues_quad.c; sourceTree = "<group>"; };
+		744D9E0B1313C4C5005EE9C8 /* glues_quad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glues_quad.h; sourceTree = "<group>"; };
+		744D9E0C1313C4C5005EE9C8 /* glues_registry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glues_registry.c; sourceTree = "<group>"; };
+		744D9E0D1313C4C5005EE9C8 /* glues_registry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glues_registry.h; sourceTree = "<group>"; };
+		744D9E0F1313C4C5005EE9C8 /* alg-outline */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "alg-outline"; sourceTree = "<group>"; };
+		744D9E101313C4C5005EE9C8 /* dict-list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "dict-list.h"; sourceTree = "<group>"; };
+		744D9E111313C4C5005EE9C8 /* dict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dict.c; sourceTree = "<group>"; };
+		744D9E121313C4C5005EE9C8 /* dict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dict.h; sourceTree = "<group>"; };
+		744D9E131313C4C5005EE9C8 /* geom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = geom.c; sourceTree = "<group>"; };
+		744D9E141313C4C5005EE9C8 /* geom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geom.h; sourceTree = "<group>"; };
+		744D9E151313C4C5005EE9C8 /* memalloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memalloc.c; sourceTree = "<group>"; };
+		744D9E161313C4C5005EE9C8 /* memalloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memalloc.h; sourceTree = "<group>"; };
+		744D9E171313C4C5005EE9C8 /* mesh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mesh.c; sourceTree = "<group>"; };
+		744D9E181313C4C5005EE9C8 /* mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mesh.h; sourceTree = "<group>"; };
+		744D9E191313C4C5005EE9C8 /* normal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = normal.c; sourceTree = "<group>"; };
+		744D9E1A1313C4C5005EE9C8 /* normal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = normal.h; sourceTree = "<group>"; };
+		744D9E1D1313C4C5005EE9C8 /* priorityq-sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "priorityq-sort.h"; sourceTree = "<group>"; };
+		744D9E1E1313C4C5005EE9C8 /* priorityq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = priorityq.c; sourceTree = "<group>"; };
+		744D9E1F1313C4C5005EE9C8 /* priorityq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = priorityq.h; sourceTree = "<group>"; };
+		744D9E201313C4C5005EE9C8 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		744D9E211313C4C5005EE9C8 /* render.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = render.c; sourceTree = "<group>"; };
+		744D9E221313C4C5005EE9C8 /* render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = render.h; sourceTree = "<group>"; };
+		744D9E231313C4C5005EE9C8 /* sweep.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sweep.c; sourceTree = "<group>"; };
+		744D9E241313C4C5005EE9C8 /* sweep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sweep.h; sourceTree = "<group>"; };
+		744D9E271313C4C5005EE9C8 /* tessmono.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tessmono.c; sourceTree = "<group>"; };
+		744D9E281313C4C5005EE9C8 /* tessmono.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tessmono.h; sourceTree = "<group>"; };
+		744D9E2A1313C4C5005EE9C8 /* PLCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCamera.h; sourceTree = "<group>"; };
+		744D9E2B1313C4C5005EE9C8 /* PLCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLCamera.m; sourceTree = "<group>"; };
+		744D9E2C1313C4C5005EE9C8 /* PLConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLConstants.h; sourceTree = "<group>"; };
+		744D9E2D1313C4C5005EE9C8 /* PLCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCube.h; sourceTree = "<group>"; };
+		744D9E2E1313C4C5005EE9C8 /* PLCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLCube.m; sourceTree = "<group>"; };
+		744D9E2F1313C4C5005EE9C8 /* PLCylinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCylinder.h; sourceTree = "<group>"; };
+		744D9E301313C4C5005EE9C8 /* PLCylinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLCylinder.m; sourceTree = "<group>"; };
+		744D9E311313C4C5005EE9C8 /* PLEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLEnums.h; sourceTree = "<group>"; };
+		744D9E321313C4C5005EE9C8 /* PLImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLImage.h; sourceTree = "<group>"; };
+		744D9E331313C4C5005EE9C8 /* PLImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLImage.m; sourceTree = "<group>"; };
+		744D9E341313C4C5005EE9C8 /* PLMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLMath.h; sourceTree = "<group>"; };
+		744D9E351313C4C5005EE9C8 /* PLMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLMath.m; sourceTree = "<group>"; };
+		744D9E361313C4C5005EE9C8 /* PLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLObject.h; sourceTree = "<group>"; };
+		744D9E371313C4C5005EE9C8 /* PLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLObject.m; sourceTree = "<group>"; };
+		744D9E381313C4C5005EE9C8 /* PLRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLRenderer.h; sourceTree = "<group>"; };
+		744D9E391313C4C5005EE9C8 /* PLRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLRenderer.m; sourceTree = "<group>"; };
+		744D9E3A1313C4C5005EE9C8 /* PLScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLScene.h; sourceTree = "<group>"; };
+		744D9E3B1313C4C5005EE9C8 /* PLScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLScene.m; sourceTree = "<group>"; };
+		744D9E3C1313C4C5005EE9C8 /* PLSceneElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSceneElement.h; sourceTree = "<group>"; };
+		744D9E3D1313C4C5005EE9C8 /* PLSceneElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSceneElement.m; sourceTree = "<group>"; };
+		744D9E3E1313C4C5005EE9C8 /* PLSphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSphere.h; sourceTree = "<group>"; };
+		744D9E3F1313C4C5005EE9C8 /* PLSphere.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSphere.m; sourceTree = "<group>"; };
+		744D9E401313C4C5005EE9C8 /* PLStructs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLStructs.h; sourceTree = "<group>"; };
+		744D9E411313C4C5005EE9C8 /* PLTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLTexture.h; sourceTree = "<group>"; };
+		744D9E421313C4C5005EE9C8 /* PLTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLTexture.m; sourceTree = "<group>"; };
+		744D9E431313C4C5005EE9C8 /* PLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLUtils.h; sourceTree = "<group>"; };
+		744D9E441313C4C5005EE9C8 /* PLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLUtils.m; sourceTree = "<group>"; };
+		744D9E451313C4C5005EE9C8 /* PLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLView.h; sourceTree = "<group>"; };
+		744D9E461313C4C5005EE9C8 /* PLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLView.m; sourceTree = "<group>"; };
+		744D9E471313C4C5005EE9C8 /* PLViewBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLViewBase.h; sourceTree = "<group>"; };
+		744D9E481313C4C5005EE9C8 /* PLViewBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLViewBase.m; path = PL/PLViewBase.m; sourceTree = "<group>"; };
+		744D9ED61313CE1A005EE9C8 /* BuildLog_2011-02-22_18-55-01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BuildLog_2011-02-22_18-55-01.txt"; sourceTree = "<group>"; };
+		749C369C13208D0700372D7F /* tess.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tess.c; sourceTree = "<group>"; };
+		749C369D13208D0700372D7F /* tess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tess.h; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* HelloPanorama-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HelloPanorama-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C3417238112E2AD900EFCB8A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C3417275112E2DC400EFCB8A /* pano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pano.jpg; sourceTree = "<group>"; };
+		C34173F5112E347A00EFCB8A /* AUTHOR */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AUTHOR; sourceTree = "<group>"; };
+		C34173F6112E347A00EFCB8A /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		C34173F7112E347A00EFCB8A /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		C3A98DC91130ED9900A3CAD6 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		C3F1DAB4112E2246009C9375 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				C3F1DAB5112E2246009C9375 /* OpenGLES.framework in Frameworks */,
+				C3417239112E2AD900EFCB8A /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				744D9E011313C4C5005EE9C8 /* glues */,
+				744D9E291313C4C5005EE9C8 /* PL */,
+				1D3623240D0F684500981E51 /* HelloPanoramaAppDelegate.h */,
+				744D9E481313C4C5005EE9C8 /* PLViewBase.m */,
+				1D3623250D0F684500981E51 /* HelloPanoramaAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* HelloPanoramaViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* HelloPanoramaViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* HelloPanorama.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				C34173F5112E347A00EFCB8A /* AUTHOR */,
+				C34173F6112E347A00EFCB8A /* COPYING */,
+				C34173F7112E347A00EFCB8A /* README */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* HelloPanorama_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3A98DC91130ED9900A3CAD6 /* icon.png */,
+				C3417275112E2DC400EFCB8A /* pano.jpg */,
+				2899E5210DE3E06400AC0155 /* HelloPanoramaViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* HelloPanorama-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				C3F1DAB4112E2246009C9375 /* OpenGLES.framework */,
+				C3417238112E2AD900EFCB8A /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		744D9E011313C4C5005EE9C8 /* glues */ = {
+			isa = PBXGroup;
+			children = (
+				744D9E021313C4C5005EE9C8 /* glu.h */,
+				744D9E031313C4C5005EE9C8 /* glues.h */,
+				744D9E041313C4C5005EE9C8 /* glues_error.c */,
+				744D9E051313C4C5005EE9C8 /* glues_error.h */,
+				744D9E061313C4C5005EE9C8 /* glues_mipmap.c */,
+				744D9E071313C4C5005EE9C8 /* glues_mipmap.h */,
+				744D9E081313C4C5005EE9C8 /* glues_project.c */,
+				744D9E091313C4C5005EE9C8 /* glues_project.h */,
+				744D9E0A1313C4C5005EE9C8 /* glues_quad.c */,
+				744D9E0B1313C4C5005EE9C8 /* glues_quad.h */,
+				744D9E0C1313C4C5005EE9C8 /* glues_registry.c */,
+				744D9E0D1313C4C5005EE9C8 /* glues_registry.h */,
+				744D9E0E1313C4C5005EE9C8 /* libtess */,
+			);
+			path = glues;
+			sourceTree = "<group>";
+		};
+		744D9E0E1313C4C5005EE9C8 /* libtess */ = {
+			isa = PBXGroup;
+			children = (
+				749C369C13208D0700372D7F /* tess.c */,
+				749C369D13208D0700372D7F /* tess.h */,
+				744D9E0F1313C4C5005EE9C8 /* alg-outline */,
+				744D9E101313C4C5005EE9C8 /* dict-list.h */,
+				744D9E111313C4C5005EE9C8 /* dict.c */,
+				744D9E121313C4C5005EE9C8 /* dict.h */,
+				744D9E131313C4C5005EE9C8 /* geom.c */,
+				744D9E141313C4C5005EE9C8 /* geom.h */,
+				744D9E151313C4C5005EE9C8 /* memalloc.c */,
+				744D9E161313C4C5005EE9C8 /* memalloc.h */,
+				744D9E171313C4C5005EE9C8 /* mesh.c */,
+				744D9E181313C4C5005EE9C8 /* mesh.h */,
+				744D9E191313C4C5005EE9C8 /* normal.c */,
+				744D9E1A1313C4C5005EE9C8 /* normal.h */,
+				744D9E1D1313C4C5005EE9C8 /* priorityq-sort.h */,
+				744D9E1E1313C4C5005EE9C8 /* priorityq.c */,
+				744D9E1F1313C4C5005EE9C8 /* priorityq.h */,
+				744D9ED61313CE1A005EE9C8 /* BuildLog_2011-02-22_18-55-01.txt */,
+				744D9E201313C4C5005EE9C8 /* README */,
+				744D9E211313C4C5005EE9C8 /* render.c */,
+				744D9E221313C4C5005EE9C8 /* render.h */,
+				744D9E231313C4C5005EE9C8 /* sweep.c */,
+				744D9E241313C4C5005EE9C8 /* sweep.h */,
+				744D9E271313C4C5005EE9C8 /* tessmono.c */,
+				744D9E281313C4C5005EE9C8 /* tessmono.h */,
+			);
+			path = libtess;
+			sourceTree = "<group>";
+		};
+		744D9E291313C4C5005EE9C8 /* PL */ = {
+			isa = PBXGroup;
+			children = (
+				744D9E2A1313C4C5005EE9C8 /* PLCamera.h */,
+				744D9E2B1313C4C5005EE9C8 /* PLCamera.m */,
+				744D9E2C1313C4C5005EE9C8 /* PLConstants.h */,
+				744D9E2D1313C4C5005EE9C8 /* PLCube.h */,
+				744D9E2E1313C4C5005EE9C8 /* PLCube.m */,
+				744D9E2F1313C4C5005EE9C8 /* PLCylinder.h */,
+				744D9E301313C4C5005EE9C8 /* PLCylinder.m */,
+				744D9E311313C4C5005EE9C8 /* PLEnums.h */,
+				744D9E321313C4C5005EE9C8 /* PLImage.h */,
+				744D9E331313C4C5005EE9C8 /* PLImage.m */,
+				744D9E341313C4C5005EE9C8 /* PLMath.h */,
+				744D9E351313C4C5005EE9C8 /* PLMath.m */,
+				744D9E361313C4C5005EE9C8 /* PLObject.h */,
+				744D9E371313C4C5005EE9C8 /* PLObject.m */,
+				744D9E381313C4C5005EE9C8 /* PLRenderer.h */,
+				744D9E391313C4C5005EE9C8 /* PLRenderer.m */,
+				744D9E3A1313C4C5005EE9C8 /* PLScene.h */,
+				744D9E3B1313C4C5005EE9C8 /* PLScene.m */,
+				744D9E3C1313C4C5005EE9C8 /* PLSceneElement.h */,
+				744D9E3D1313C4C5005EE9C8 /* PLSceneElement.m */,
+				744D9E3E1313C4C5005EE9C8 /* PLSphere.h */,
+				744D9E3F1313C4C5005EE9C8 /* PLSphere.m */,
+				744D9E401313C4C5005EE9C8 /* PLStructs.h */,
+				744D9E411313C4C5005EE9C8 /* PLTexture.h */,
+				744D9E421313C4C5005EE9C8 /* PLTexture.m */,
+				744D9E431313C4C5005EE9C8 /* PLUtils.h */,
+				744D9E441313C4C5005EE9C8 /* PLUtils.m */,
+				744D9E451313C4C5005EE9C8 /* PLView.h */,
+				744D9E461313C4C5005EE9C8 /* PLView.m */,
+				744D9E471313C4C5005EE9C8 /* PLViewBase.h */,
+			);
+			path = PL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* HelloPanorama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HelloPanorama" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloPanorama;
+			productName = HelloPanorama;
+			productReference = 1D6058910D05DD3D006BFB54 /* HelloPanorama.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HelloPanorama" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* HelloPanorama */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* HelloPanoramaViewController.xib in Resources */,
+				C3417276112E2DC400EFCB8A /* pano.jpg in Resources */,
+				C34173F9112E347A00EFCB8A /* AUTHOR in Resources */,
+				C34173FA112E347A00EFCB8A /* COPYING in Resources */,
+				C34173FB112E347A00EFCB8A /* README in Resources */,
+				C3A98DCA1130ED9900A3CAD6 /* icon.png in Resources */,
+				744D9E4E1313C4C5005EE9C8 /* alg-outline in Resources */,
+				744D9E561313C4C5005EE9C8 /* README in Resources */,
+				744D9ED71313CE1A005EE9C8 /* BuildLog_2011-02-22_18-55-01.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* HelloPanoramaAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* HelloPanoramaViewController.m in Sources */,
+				744D9E491313C4C5005EE9C8 /* glues_error.c in Sources */,
+				744D9E4A1313C4C5005EE9C8 /* glues_mipmap.c in Sources */,
+				744D9E4B1313C4C5005EE9C8 /* glues_project.c in Sources */,
+				744D9E4C1313C4C5005EE9C8 /* glues_quad.c in Sources */,
+				744D9E4D1313C4C5005EE9C8 /* glues_registry.c in Sources */,
+				744D9E4F1313C4C5005EE9C8 /* dict.c in Sources */,
+				744D9E501313C4C5005EE9C8 /* geom.c in Sources */,
+				744D9E511313C4C5005EE9C8 /* memalloc.c in Sources */,
+				744D9E521313C4C5005EE9C8 /* mesh.c in Sources */,
+				744D9E531313C4C5005EE9C8 /* normal.c in Sources */,
+				744D9E551313C4C5005EE9C8 /* priorityq.c in Sources */,
+				744D9E571313C4C5005EE9C8 /* render.c in Sources */,
+				744D9E581313C4C5005EE9C8 /* sweep.c in Sources */,
+				744D9E5A1313C4C5005EE9C8 /* tessmono.c in Sources */,
+				744D9E5B1313C4C5005EE9C8 /* PLCamera.m in Sources */,
+				744D9E5C1313C4C5005EE9C8 /* PLCube.m in Sources */,
+				744D9E5D1313C4C5005EE9C8 /* PLCylinder.m in Sources */,
+				744D9E5E1313C4C5005EE9C8 /* PLImage.m in Sources */,
+				744D9E5F1313C4C5005EE9C8 /* PLMath.m in Sources */,
+				744D9E601313C4C5005EE9C8 /* PLObject.m in Sources */,
+				744D9E611313C4C5005EE9C8 /* PLRenderer.m in Sources */,
+				744D9E621313C4C5005EE9C8 /* PLScene.m in Sources */,
+				744D9E631313C4C5005EE9C8 /* PLSceneElement.m in Sources */,
+				744D9E641313C4C5005EE9C8 /* PLSphere.m in Sources */,
+				744D9E651313C4C5005EE9C8 /* PLTexture.m in Sources */,
+				744D9E661313C4C5005EE9C8 /* PLUtils.m in Sources */,
+				744D9E671313C4C5005EE9C8 /* PLView.m in Sources */,
+				744D9E681313C4C5005EE9C8 /* PLViewBase.m in Sources */,
+				749C369E13208D0700372D7F /* tess.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HelloPanorama_Prefix.pch;
+				HEADER_SEARCH_PATHS = "../PanoramaGL/**";
+				INFOPLIST_FILE = "HelloPanorama-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = HelloPanorama;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7 i386 ppc ppc64 ppc7400 ppc970 x86_64";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HelloPanorama_Prefix.pch;
+				INFOPLIST_FILE = "HelloPanorama-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = HelloPanorama;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7 i386 ppc ppc64 ppc7400 ppc970 x86_64";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.framework *.gch *.xcode* (*) CVS .svn *.xcodeproj";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../PanoramaGL/**";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HelloPanorama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HelloPanorama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
